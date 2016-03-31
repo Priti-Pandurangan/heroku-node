@@ -1,0 +1,32 @@
+{
+  "name": "heroku-node",
+  "version": "1.0.0",
+  "description": "Deploying a node.js application on heroku",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines" : {
+  	"node" : "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priti-Pandurangan/heroku-node.git"
+  },
+  "keywords": [
+  	"node",
+    "heroku",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priti-Pandurangan/heroku-node/issues"
+  },
+  "homepage": "https://github.com/Priti-Pandurangan/heroku-node#readme"
+}
